@@ -29,7 +29,7 @@ const AppStore = () => {
                 className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
               />
             </a>
-            <a href="#" data-aos="fade-up" data-aos-delay="700">
+            <a href="https://play.google.com/store/apps/details?id=be.xbd.kotlin&hl=en&gl=US" data-aos="fade-up" data-aos-delay="700">
               <img
                 src={PlayStoreImg}
                 alt=""

@@ -1,5 +1,5 @@
 import React from "react";
-import HeroPng from "../../assets/hero.png";
+import HeroPng from "../../assets/hero.webp";
 import { BiPlayCircle } from "react-icons/bi";
 
 const Hero = ({ togglePlay }) => {
@@ -11,9 +11,9 @@ const Hero = ({ togglePlay }) => {
             {/* hero text section */}
             <div className="order-2 sm:order-1 space-y-5 lg:pr-20 relative z-30">
               <h1 data-aos="fade-up" data className="text-4xl font-semibold">
-                GET READY TO ENJ0Y VR{" "}
+                GET READY TO ENJ0Y HAPPY{" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-                  GAMES WITH OUR PLATFORM
+                  COADING WITH OUR PLATFORM
                 </span>
               </h1>
               <p data-aos="fade-up" data-aos-delay="300">
@@ -27,7 +27,7 @@ const Hero = ({ togglePlay }) => {
                   data-aos-delay="500"
                   className="primary-btn"
                 >
-                  Get Started
+                  <a href="https://play.google.com/store/apps/details?id=be.xbd.kotlin&hl=en&gl=US&pli=1">Get Started</a>
                 </button>
                 <button
                   data-aos="fade-up"
@@ -47,7 +47,7 @@ const Hero = ({ togglePlay }) => {
               data-aos-offset="0"
               className="order-1 sm:order-2"
             >
-              <img src={HeroPng} alt="" className="" />
+              <img src={HeroPng} alt="" className="w-[300px]" />
             </div>
           </div>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import BannerPng from "../../assets/banner2.png";
+import BannerPng from "../../assets/collage.webp";
 import { BiPlayCircle } from "react-icons/bi";
 
 const Banner2 = ({ togglePlay }) => {
@@ -15,9 +15,9 @@ const Banner2 = ({ togglePlay }) => {
                 data-aos-delay="300"
                 className="text-4xl font-semibold"
               >
-                GET READY TO ENJ0Y VR{" "}
+                GET READY TO ENJ0Y {" "}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-                  Movies WITH OUR PLATFORM
+                  COADING WITH OUR PLATFORM
                 </span>
               </h1>
               <p data-aos="fade-up" data-aos-delay="500">
@@ -51,7 +51,7 @@ const Banner2 = ({ togglePlay }) => {
 
           {/* image section */}
           <div data-aos="fade-up" className="order-1 sm:order-2">
-            <img src={BannerPng} alt="" className="w-full max-w-[400px]" />
+            <img src={BannerPng} alt="" className="w-full max-w-[600px]" />
           </div>
         </div>
       </div>

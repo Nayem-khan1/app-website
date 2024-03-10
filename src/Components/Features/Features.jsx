@@ -1,20 +1,20 @@
 import React from "react";
-import { FaCameraRetro } from "react-icons/fa";
 import { GiNotebook } from "react-icons/gi";
 import { SlNote } from "react-icons/sl";
+import { PiCodeSimpleBold } from "react-icons/pi";
 
 const FeaturesData = [
   {
-    name: "Captivating Videos",
+    name: "Ofline Coading",
     icon: (
-      <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
+      <PiCodeSimpleBold className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
     aosDelay: "300",
   },
   {
-    name: "Safe Transactions",
+    name: "tutorial",
     icon: (
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
@@ -23,7 +23,7 @@ const FeaturesData = [
     aosDelay: "500",
   },
   {
-    name: "Experience Reality",
+    name: "Problem set",
     icon: (
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),

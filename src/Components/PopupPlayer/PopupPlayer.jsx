@@ -10,7 +10,7 @@ const PopupPlayer = ({ isPlay, togglePlay }) => {
             <div className="bg-white dark:bg-dark p-5 m-3 rounded-lg shadow-md">
               {/* header section */}
               <div className="flex items-center justify-between pb-3">
-                <h1 className="text-2xl font-semibold">Metaverse</h1>
+                <h1 className="text-2xl font-semibold">Kotlin Compiler Offline</h1>
                 <IoClose
                   onClick={togglePlay}
                   className="text-4xl cursor-pointer hover:scale-110 duration-300"
@@ -22,7 +22,7 @@ const PopupPlayer = ({ isPlay, togglePlay }) => {
                 <iframe
                   width="100%"
                   height="315"
-                  src="https://www.youtube.com/embed/skz6VDfm03I?si=ZE0mBi5atyVsp_0C"
+                  src="https://www.youtube.com/embed/45mlapbh_fE?si=vflm4gi0Y1a-KAph"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

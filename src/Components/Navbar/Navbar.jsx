@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo.webp";
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi";
 import DarkMode from "./DarkMode";
 
@@ -36,7 +36,7 @@ const Navbar = () => {
           <div className="flex items-center gap-3">
             <img src={Logo} alt="" className="h-16" />
             <p className="text-3xl">
-              VR <span className="font-bold">World</span>
+            Smart  <span className="font-bold">IDE</span>
             </p>
           </div>
           {/* Desktop Menu section */}
